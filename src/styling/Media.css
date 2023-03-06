@@ -1,0 +1,50 @@
+@media screen and (max-width:414px){
+ .navbar ul{
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .navbar{
+    height: auto;
+    justify-content: center;
+ }
+ 
+ .home1{
+    flex-direction: column;
+ }
+ .items{
+    flex-direction: column;
+ }  
+ .items div{
+    width: 100%;
+ } 
+ .footer{
+    padding-top: 25%;
+ }
+ .items div{
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: black;
+ }
+ .display{
+    width: auto;
+ }
+}
+@media screen and (min-width:415px){
+    .footer{
+        padding-top: 7%;
+     }
+     .navbar ul{
+        flex-direction: row;
+     }
+     .home1 img{
+        width: 14rem;
+     }
+     .Home div .images{
+        width: 30%;
+     }
+     .home1 div{
+        width: 33%;
+     }
+}

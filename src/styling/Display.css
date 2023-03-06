@@ -1,0 +1,180 @@
+.display{
+    background: url("../images/backgroundd.jpg");
+    background-size: cover;
+    z-index: -1;   
+    height: 25rem;
+    display: flex;
+    padding-top: 7%;
+    }
+
+    .displaycontent{
+        width: 80%;
+        text-align: left;
+    }
+    .test{
+        margin-left: 1%;
+        width: 100%;
+        padding: .5% 1%;
+        animation-name: test;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        position: relative;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+    }
+        @keyframes test{
+            from{
+                top: 30%;
+                color: black;
+                left: -20%;
+            }
+            to{
+               left: 40%;
+               top: 30%;
+                color: rgb(6, 160, 222);
+            }
+        }
+.displaycontent .h3{
+    animation-name: heading;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    position: relative;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes heading{
+    from{
+        left: 400%;
+        top: 30%;
+        color: black;
+    }
+    to{
+        top:30%;
+        left: 60%;
+        color: orangered;
+
+        
+    }
+}
+
+.displaycontent p{
+    animation-name: para;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    position: relative;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes para{
+    from{
+        left:150%;
+        color: aqua;
+        
+    }
+    to{
+        left:20%;
+        color: black;
+        
+    }
+}
+.displaycontent div{
+    
+    display: flex;
+    justify-content: left;
+}
+.animatedbutton{
+    width: 12%;
+    height: 20%;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.animatedbutton{
+    animation-name: bdbutton;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    position: relative;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes bdbutton{
+    from{
+        left: 100%;
+        top: 50%;
+        color: black;
+    }
+    to{
+        top:50%;
+        left: -24%;
+        color: orangered;
+
+        
+    }
+}
+.animatedbutton:hover{
+    animation-name: bdbuttonn;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    position: relative;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes bdbuttonn{
+    from{
+        /* left: 100%; */
+        top: 10%;
+        color: black;
+    }
+    to{
+        top:50%;
+        /* left: -24%; */
+        color: orangered;
+
+        
+    }
+}
+
+/* @media screen and (max-width:414px) {
+    .displayspans{
+        padding: 0;        
+    }
+   .displaycontent{
+    width: 100%;
+    margin-top: 30%;
+   }
+    .display{
+        width: 100%;
+        font-size: small;
+
+    }
+    .displayp{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .displayp a{
+        margin-left: 100%;
+    }
+    .home1{
+        flex-direction: column;
+    }
+    
+    .items{
+        flex-direction: column;
+    }
+    .items div{
+        width: 100%; 
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 3%;
+
+    }
+    
+    
+} */
+
+    /* .displaycontent{
+        width: 100%;
+        margin-top: 30%;
+       } */
+
+

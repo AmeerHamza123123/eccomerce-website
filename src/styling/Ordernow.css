@@ -1,0 +1,48 @@
+.ordernow{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* height: 120h; */
+    width: 100%;
+}
+
+.ordernow .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    padding: 1% 0% 1% 0%;
+}
+.ordernow .items .orderitem{
+     border: 1px solid rgb(219, 216, 216);
+     border-radius: 3px;
+
+    }
+
+    .ordernow .items  .orderitem:hover{
+        box-shadow: 5px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    }
+    .shoes h1{
+        text-align: center;
+    }
+    .orderitem{
+        margin:0 2%;
+        padding: 0 1%;
+        width: 30%; 
+        text-align: center;
+        align-items: center;
+        border: 1px solid black;
+    }
+    .orderitem img{
+        height: 15rem;
+        width: 100%;
+        
+    }
+   
+    .orderitem h4{
+        color: orangered;
+    }
+    button{
+        border-radius: 2px ;
+        margin-top: 0%;
+    }
+    

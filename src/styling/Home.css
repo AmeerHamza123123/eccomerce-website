@@ -1,0 +1,34 @@
+.Home{
+    text-align: center;
+    margin-top: 5%;
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: auto;
+}
+.Home .home1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.home1 .images{
+    padding-top: 4%;
+    /* width: 17rem; */
+    border-radius: 50px;
+    /* box-shadow: 5px 1px 5px 1px rgba(0, 0, 0, 0.2); */
+}
+.home1 .centerimg{
+    margin:0% 10% 0% 10%;
+}
+.home1  img{
+    height: 12rem;
+    /* width: 15rem; */
+    animation:imgup 2s linear alternate infinite;
+   
+}
+@keyframes imgup{
+    to{
+        transform: translatey(-1rem);
+    }
+        
+      }

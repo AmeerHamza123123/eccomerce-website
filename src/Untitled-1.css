@@ -1,0 +1,11 @@
+.navigation li a.active::after,
+.navigation li a:hover::after
+{
+    position: absolute;
+    content: "";
+    bottom: -4px;
+    height: 3px;
+    width: 30%;
+    background: #FDC93B;
+    left: 20px;
+}
